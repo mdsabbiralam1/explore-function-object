@@ -9,3 +9,8 @@ trunOnswitch();
 console.log('mama kemon aso');
 console.log('mama ki koro ekhon');
 trunOnswitch();
+
+var country = "BD";
+var cityName = "Dhaka";
+var location = "Gulishtan";
+trunOnswitch();
