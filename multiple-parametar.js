@@ -37,5 +37,5 @@ function biyogFunction (nu1, nu2) {
 }
 var singaraPrice = 10;
 var myCash = 15;
-var returnTaka = biyogFunction (myCash, singaraPrice); 
+var returnTaka = biyogFunction (15, 10); 
 console.log('boss apni ferot paben :', returnTaka);
