@@ -46,3 +46,20 @@ switch (color) {
                default:
                               console.log('color is black');
 }
+
+
+// recap switch 
+
+var food = 'orange';
+switch (food) {
+               case 'mango':
+               case 'orange':
+                              console.log('price 5$');
+                              break;
+               case 'banana':
+                              console.log('price 2$');
+                              break;
+               default:
+                              console.log( 'price 99$');
+
+}
