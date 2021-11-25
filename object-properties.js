@@ -40,5 +40,11 @@ computer[priceProperty] = 18000;
 console.log(computer);
 
 
-// computer.pcPrice(20000);
-// console.log(pcPrice);
+// storage property valu change in different ways 
+var ramProperty = 'ram';
+
+computer[ramProperty] = '1 TB'
+computer.rom = '256 gb';
+computer['price'] = '500 gb';
+
+console.log(computer);
