@@ -36,3 +36,11 @@ function bringPc (taka) {
 var myBudget = 60000;
 var pc = bringPc(myBudget);
 console.log(pc);
+
+// recap function 
+function threeNumberAdd (number1, number2, number3) {
+               var total = number1 + number2 + number3;
+               return total;
+}
+var totalMark = threeNumberAdd(12, 10, 28);
+console.log(totalMark);
