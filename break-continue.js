@@ -35,9 +35,21 @@ var num = [12, 43, 54, 75, 46, 77, 43, 86, 45];
 for (i = 0; i < num.length; i++) {
                var numElement = num[i];
                console.log(numElement);
-               if (i == 4) {
+               if (numElement > 50) {
                               break;
                }
 }
 // var index = num.indexOf(45);
 // console.log(index);
+
+
+// continue for loop 
+
+var number = [34, 65, 87, 39, 94,54, 46, 102, 56, 66, 30]
+for (i=0; i < number.length; i++ ) {
+               var numberIndex = number[i];
+               if(numberIndex > 60) {
+                              continue;
+               }
+               console.log(numberIndex);
+}
