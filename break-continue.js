@@ -1,4 +1,5 @@
 // whle loop break
+/*
 var i = 0;
  while (i < 15) {
                console.log(i);
@@ -7,11 +8,11 @@ var i = 0;
                }
                i++;
  }
-
+*/
 //  for loop break
- for (i = 0, i < 10, i++) {
+for (i = 1; i < 10; i++) {
                console.log(i);
-               if (i == 4) {
+               if (i == 6) {
                               break;
                }
  }
