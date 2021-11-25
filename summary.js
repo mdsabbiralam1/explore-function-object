@@ -16,6 +16,23 @@ if (mobilePhone.indexOf('walton') != -1 ) {
 // while loop
 var i = 0;
 while (i < 15) {
-               console.log(i);
+               // console.log(i);
                i++;
 }
+// for loop
+for (i = 0; i < 10; i++) {
+               // console.log(i);
+}
+
+// function
+function bringPc (taka) {
+               console.log('Pc price:', taka);
+               console.log('mama pc ta den');
+               var pcPrice = 30000;
+               var pcQuantity = myBudget / pcPrice;
+               return pcQuantity;
+
+}
+var myBudget = 60000;
+var pc = bringPc(myBudget);
+console.log(pc);
