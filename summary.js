@@ -44,3 +44,14 @@ function threeNumberAdd (number1, number2, number3) {
 }
 var totalMark = threeNumberAdd(12, 10, 28);
 console.log(totalMark);
+
+
+// Object decleration
+var student1 = {
+               id: 45458,
+               name: 'rifat',
+               age: 54,
+               height: 45
+}
+student1.name = 'Rakib'
+console.log(student1);
