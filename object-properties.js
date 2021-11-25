@@ -20,7 +20,25 @@ var computer = {
                color: 'silver',
                display: 15,
 }
+var pcStorage = computer.rom;
+console.log(pcStorage);
+
+
 var pcPrice = computer.price;
-// console.log(pcPrice);
-computer.pcPrice(20000);
 console.log(pcPrice);
+
+// set a property value
+computer.price = 25000;
+console.log(computer);
+
+// different ways to set a value an object property\
+var priceProperty = 'price';
+
+computer.price = 22000;
+computer['price'] = 20000;
+computer[priceProperty] = 18000;
+console.log(computer);
+
+
+// computer.pcPrice(20000);
+// console.log(pcPrice);
