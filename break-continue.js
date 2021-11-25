@@ -19,6 +19,7 @@ for (i = 1; i < 10; i++) {
  } */
 
 //  array break point
+/*
 var examMark = [41, 85, 58, 98, 65, 99, 69, 40, 29, 65];
 for (i = 0; i < examMark.length; i++) {
                var element = examMark[i];
@@ -27,3 +28,16 @@ for (i = 0; i < examMark.length; i++) {
                               break;
                }
 }
+*/
+// recap array break point 
+
+var num = [12, 43, 54, 75, 46, 77, 43, 86, 45];
+for (i = 0; i < num.length; i++) {
+               var numElement = num[i];
+               console.log(numElement);
+               if (i == 4) {
+                              break;
+               }
+}
+// var index = num.indexOf(45);
+// console.log(index);
